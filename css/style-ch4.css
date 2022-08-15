@@ -1,0 +1,156 @@
+/*css umum*/
+body {
+    padding-top: 100px;
+    background-color: #9C835F;
+    font-family: 'open sans';
+}
+/*akhir dari css umum*/
+
+
+/*bagian header*/
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    padding: 50px 50px;
+    align-items: center;
+}
+.back {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 72px;
+    cursor: pointer;
+    font-family: 'open sans';
+    color: #724C21;
+}
+.logo {
+    width: 72px;
+    height: 72px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1 {
+    font-size: 36px;
+    color: #F9B23D;
+    font-weight: bold;
+}
+/*akhir dari bagian header*/
+
+
+/*bagian content*/
+    /*untuk tulisan PLAYER 1 dan COM*/
+.info {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+    /*div kolom COM*/
+.com {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    /*div kolom PLAYER*/
+.player-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    /*css untuk semua button batu, button kertas, button gunting beserta img-nya*/
+    /*untuk img-nya saya pake yg hasil export dari figma, bukan yang dari asset, karena yg dari asset size filenya sangat besar*/
+.pilihan-player, 
+.pilihan-com {
+    width: 160px;
+    height: 160px;
+    border: none;
+    background: none;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+.pilihan-player:hover {
+    transform: scale(1.15);
+}
+.pilihan-com {
+    pointer-events: none;
+}
+.pilihan-player img, 
+.pilihan-com img {
+    width: 60%;
+}
+
+    /*css untuk div 'VS dan hasil'*/
+.vs-result-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-vs {
+    color: #BD0000;
+    font-size: 144px;
+    font-weight: bold;
+    margin-top: 160px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+    /*css untuk tombol refresh*/
+#refresh {
+    width: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+/*akhir dari bagian content*/
+
+
+/*css class untuk di-classList.add di js*/
+.terpilih {
+    background-color: #C4C4C4;
+    pointer-events: none;
+}
+.display-hasil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    transform: rotate(-20deg);
+    width: 220px;
+    height: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: #4C9654;
+    letter-spacing: 2px;
+    font-size: 32px;
+    border-radius: 8px;
+}
+.display-hasil-draw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    transform: rotate(-20deg);
+    width: 220px;
+    height: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: #035B0C;
+    letter-spacing: 2px;
+    font-size: 32px;
+    border-radius: 8px;
+}
+.stop {
+    cursor: not-allowed;
+    pointer-events: none;
+}

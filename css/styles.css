@@ -1,0 +1,321 @@
+p, h1, h2 , h3 {
+    font-family: arial;
+    margin: 0;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+body { 
+    margin: 0;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.open-sans {
+    font-family: 'Open sans', sans-serif;
+}
+.page-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-style {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.nav-item {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'open sans', sans-serif;
+}
+.logo {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+}
+.nav-container {
+    justify-content: space-between;
+}
+.header-title {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: 2px;
+    margin-top: 70px;
+}
+.header-info {
+    color: white;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.button-style {
+    padding: 15px 60px;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+}
+.story-scroll-down {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 140px;
+    }
+
+.page-2 {
+    width: 100%;
+    height: 110vh;
+    background-image: url(../assets/the-games-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.page2-mini-info {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.page2-large-info {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.slider-container {
+    width: 1200px;
+    height: 500px;
+    padding-top: 90px;
+}
+#carouselExampleIndicators .carousel-indicators button {
+    height: 17px;
+    width: 17px;
+    border-radius: 200px;
+    border-top: 0;
+    border-bottom: 0;
+    margin: 0 20px;
+    border: 1px solid white;
+    border-radius: 200px;
+}
+#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+    background-color:black;
+}
+#carouselExampleIndicators .carousel-indicators .active {
+    background-color: white;
+    box-shadow: inset 0px 0px 0px 1px white;
+    transition: 0.3s;
+}
+#carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon {
+    background-image: url(../assets/switch-left.svg);
+}
+#carouselExampleIndicators .carousel-control-next .carousel-control-next-icon {
+    background-image: url(../assets/switch-right.svg);
+}
+.carousel-control-prev {
+    left: -70px;
+}
+.carousel-control-next {
+    right: -70px;
+}
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.page-3 {
+    width: 100%;
+    height: 110vh;
+    background-image: url(../assets/features.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.page3-question {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.page3-features {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.page3-img {
+    width: 20px;
+}
+.ellipse {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.ellipse-outline {
+    margin-top: 127px;
+    margin-bottom: 15px;
+}
+.features-menu {
+    color: orange;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+.features-menu-info {
+    color: white;
+    word-spacing: 3px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-left: 10px;
+}
+.page-4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/requirements.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.question {
+    color: rgb(235, 235, 235);
+    padding-top: 100px;
+    letter-spacing: 2px;
+}
+.requirements {
+    color: white;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 1);
+    letter-spacing: 2px;
+    line-height: 55px;
+}
+.table-style {
+    margin-top: 30px;
+}
+td {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.req-menu {
+    color: orange;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.req-info {
+    line-height: 20px;
+    word-spacing: 2px;
+    font-family: 'open sans', sans-serif;
+}
+.page-5 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/top-score-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-top: 50px;
+}
+.top-scores {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-top: 150px;
+}
+.top-scores-explanation {
+    color: white;
+    word-spacing: 2px;
+    margin-bottom: 35px;
+}
+.card {
+    max-width: 360px;
+    background-color: rgb(31, 31, 31);
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.twitter-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.card-profpict {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.ellipse-orange {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: -55px;
+    margin-top: 2px;
+}
+.card-author {
+    margin-left: 20px;
+    line-height: 20px;
+}
+.card-author-name {
+    font-size: 22px;
+    color:rgb(255, 187, 0);
+    letter-spacing: 1px;
+}
+.card-status{
+    color: grey;
+}
+.twitter-logo {
+    align-self: right;
+}
+.tweet {
+    color: white;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-family: 'open sans', sans-serif;
+}
+.date {
+    color: grey;
+    font-family: 'open sans';
+    font-size: 14px;
+}
+.page-6 {
+    width: 100%;
+    height: 98vh;
+    background-color: black;
+}
+.skull-img {
+    width: 60%;
+    object-fit: cover;
+}
+.newsletter {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.input-email {
+    height: 60px;
+    width: 300px;
+    margin-right: 10px;
+    background-color: rgb(100, 100, 100);
+    padding: 0 15px;
+    border-radius: 8px;
+    border: none;
+}
+.input-email::placeholder {
+    color: orange;
+}
+.copyright {
+    color: rgb(131, 131, 131);
+    font-size: 12px;
+}
